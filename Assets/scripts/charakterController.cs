@@ -19,7 +19,8 @@ public class charakterController : MonoBehaviour {
 	void Update () {
         Vector3 rawPosition = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 targetPosition = new Vector3(rawPosition.x, 0.0f, 0.0f);
-        rigidbody2D.MovePosition(targetPosition);
+        Rigidbody2D.MovePosition(targetPosition);
 	}
 
+    } 
 }
