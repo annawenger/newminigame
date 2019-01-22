@@ -11,8 +11,8 @@ public class charakterController : MonoBehaviour {
 	void Start () {
 		if (camera == null)
         {
-            cam = Camera.main
-        }
+            cam = Camera.main;       
+            }
     }
 	
 	// Update is called once per frame
