@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 279591856}
   - component: {fileID: 279591857}
   m_Layer: 0
-  m_Name: character
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 893224271}
   - component: {fileID: 893224270}
   m_Layer: 0
-  m_Name: spitze (1)
+  m_Name: Spitze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 1507466502}
   - component: {fileID: 1507466501}
   m_Layer: 0
-  m_Name: background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
