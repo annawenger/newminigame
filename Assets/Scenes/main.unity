@@ -740,6 +740,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1507466502}
   - component: {fileID: 1507466501}
+  - component: {fileID: 1507466503}
+  - component: {fileID: 1507466504}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -806,6 +808,34 @@ Transform:
   m_Father: {fileID: 1364445274}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1507466503
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507466500}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -16.531006, y: -22.5652}
+  - {x: 16.809954, y: -22.565197}
+--- !u!114 &1507466504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507466500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64edf9ef5da654c4ea94370624b1dbfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998810565
 GameObject:
   m_ObjectHideFlags: 0

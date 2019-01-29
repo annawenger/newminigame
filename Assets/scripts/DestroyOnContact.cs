@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOnContact : MonoBehaviour {
+public class DestroyBall : MonoBehaviour {
 
 void OnTriggerEnter2D (Collider2D other)
     {
