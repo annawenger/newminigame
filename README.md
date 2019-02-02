@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # newminigame
 Bei dem Minigame "BallCollect" geht es darum mit den Roboter-Charakter so viele Bälle wie möglich zu fangen. Die Bälle die man fängt werden gezählt und bielden den Score des Spielers. Jedoch fallen nicht nur Bälle herunter sondern auch gefährliche Spitzen. Trifft den Charakter eine Spitze, verliert man Scorepunkte. 1 Treffer= -1 Punkt. Ziel ist es nach 60 sec. einen höchstmöglichen Score zu haben.
 
@@ -10,6 +11,14 @@ Der Charakter bewegt sich.
 Man kan den Ball mit dem Charakter auffangen.
 Wird der Ball nicht gefangen wird der Ball "zerstört".
 
+=======
+# NewMiniGame
+
+Code wurde im Rahmen meines Verständnis gecleaned.
+Character kann Ball "fangen" (DestroyOnContact).
+Ball fällt aufgrund der Physics.
+Character bewegt sich.
+>>>>>>> ba87d6954f0096adfc52a8e62cce4835c0f01d52
 
 Name des Minigames lautet: BallCollect
 Developmentplattform: Unity Version 2018.2.14f1 
