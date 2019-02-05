@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1192337768993370, guid: 8834a6924c42440e68c948010e0a1309, type: 2}
-  spawnRate: 2
+  spawnRate: 3
 --- !u!4 &415451705
 Transform:
   m_ObjectHideFlags: 0
