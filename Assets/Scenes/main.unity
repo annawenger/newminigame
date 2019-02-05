@@ -186,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 279591850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -2.24, z: 0}
+  m_LocalPosition: {x: -0.01, y: -2.24, z: 81}
   m_LocalScale: {x: 0.22037674, y: 0.22037674, z: 0.22037674}
   m_Children: []
   m_Father: {fileID: 0}
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1192337768993370, guid: 8834a6924c42440e68c948010e0a1309, type: 2}
-  spawnRate: 3
+  spawnRate: 10
 --- !u!4 &415451705
 Transform:
   m_ObjectHideFlags: 0
@@ -617,7 +617,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 998275168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -786.6, y: 429.7, z: -9502.1}
+  m_LocalPosition: {x: -786.6, y: 429.7, z: 0}
   m_LocalScale: {x: 54.900925, y: 54.900925, z: 54.900925}
   m_Children:
   - {fileID: 770426738}
