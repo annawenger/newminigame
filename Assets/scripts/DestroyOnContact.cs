@@ -2,11 +2,55 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyBall : MonoBehaviour {
+public class DestroyOnBall : MonoBehaviour {
 
-void OnTriggerEnter2D (Collider2D other)
+    GameLogic gameLogic;
+
+    void Start()
     {
-        Debug.Log("enter trigger ball: "+ other.name);
-        Destroy(other.gameObject);
+        gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic>();
+        //gameLogic = null;
+
     }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            if (gameLogic != null)
+            {
+                gameLogic.AddCoin();
+                Destroy(this.gameObject);
+                Debug.Log("Gamelogic!=null");
+            }
+            else
+            {
+                Debug.Log("Gamelogic=null");
+            }
+
+
+            Debug.Log("playercollision");
+        }
+        else if (col.CompareTag("Ground"))
+        {
+            if (gameLogic == null)
+            {
+                Debug.Log("Gamelogic=null22");
+                return;
+            }
+            Destroy(this.gameObject);
+            Debug.Log("groundcollision");
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
