@@ -12,7 +12,8 @@ public class Spawner : MonoBehaviour
     public GameObject boundryL;
     float randX;
     Vector2 whereToSpawn;
-    public float spawnRate = 3f;
+    public float spawnRate = 2f;
+    public float spawnRateS = 3f;
     float nextSpawn = 0.0f;
     float timer;
 

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyOnBall : MonoBehaviour {
+public class DestroyOnBall : MonoBehaviour
+{
 
     GameLogic gameLogic;
 
