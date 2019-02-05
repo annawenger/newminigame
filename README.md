@@ -10,7 +10,7 @@ Das Projekt ist in Unity angelegt.
 Der Charakter bewegt sich.(Code inspiriert von Caro Hollweger)
 Man kan den Ball mit dem Charakter auffangen.
 Wird der Ball nicht gefangen wird der Ball "zerstört".
-Die Bälle spawnen, sind jedoch nicht sichtbar. (Code inspiriert von Sarah Glavan)
+Die Bälle spawnen, jedoch spawnen noch zu viele Bälle aufeinmal. (Code inspiriert von Sarah Glavan)
 
 
 >>>>>>> ba87d6954f0096adfc52a8e62cce4835c0f01d52
