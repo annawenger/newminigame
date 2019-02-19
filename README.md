@@ -33,7 +33,10 @@ Limitations: Counter not working, Spitzen not collectable
 <br>
 Lessons Learned: set scenes, set collider, charakter controlling, spawning random objects
 
-
+<br>
+Trailer of the Game:
+<a href="https://youtu.be/jJL9thN-C00">Link to trailer.</a>
+<br>
 <img src="Screenshots/startscreen.png">
 Startscreen
 <img src="Screenshots/mainscreen.png">
