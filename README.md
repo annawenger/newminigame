@@ -46,3 +46,6 @@ Playscreen
 Won screen
 <img src="Screenshots/gameoverscreen.png">
 GameOver screen
+<br>
+<br>
+©Anna Wenger
