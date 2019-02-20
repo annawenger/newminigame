@@ -1,4 +1,4 @@
-# newminigame
+# BallCollect
 Bei dem Minigame "BallCollect"handelt es sich um ein 2D Game und geht es darum mit den Roboter-Charakter so viele Bälle wie möglich zu fangen. Die Bälle die man fängt werden gezählt und bielden den Score des Spielers. Jedoch fallen nicht nur Bälle herunter sondern auch gefährliche Spitzen. Trifft den Charakter eine Spitze, verliert man Scorepunkte. 1 Treffer= -1 Punkt. Ziel ist es nach 60 sec. einen höchstmöglichen Score zu haben.
 
 Progress in %: 70%
@@ -34,18 +34,23 @@ Lessons Learned: set scenes, set collider, charakter controlling, spawning rando
 
 <br>
 Trailer of the Game:
+<br>
 <a href="https://youtu.be/jJL9thN-C00">Link to trailer.</a>
 <br>
-<img src="Screenshots/startscreen.png">
 Startscreen
-<img src="Screenshots/mainscreen.png">
+<img src="Screenshots/startscreen.png">
+<br>
 Mainscreen
-<img src="Screenshots/playscreen.png">
+<img src="Screenshots/mainscreen.png">
+<br>
 Playscreen
-<img src="Screenshots/wonscreen.png">
+<img src="Screenshots/playscreen.png">
+<br>
 Won screen
-<img src="Screenshots/gameoverscreen.png">
+<img src="Screenshots/wonscreen.png">
+<br>
 GameOver screen
+<img src="Screenshots/gameoverscreen.png">
 <br>
 <br>
 ©Anna Wenger
