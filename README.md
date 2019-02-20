@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # newminigame
 Bei dem Minigame "BallCollect"handelt es sich um ein 2D Game und geht es darum mit den Roboter-Charakter so viele Bälle wie möglich zu fangen. Die Bälle die man fängt werden gezählt und bielden den Score des Spielers. Jedoch fallen nicht nur Bälle herunter sondern auch gefährliche Spitzen. Trifft den Charakter eine Spitze, verliert man Scorepunkte. 1 Treffer= -1 Punkt. Ziel ist es nach 60 sec. einen höchstmöglichen Score zu haben.
 
